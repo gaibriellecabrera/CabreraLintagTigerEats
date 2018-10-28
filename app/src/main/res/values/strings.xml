@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TigerEats</string>
+    <string name="tab_text_1">Tiger Eats</string>
+    <string name="tab_text_2">Tiger Recipe</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="american">American</string>
+    <string name="chinese">Chinese</string>
+    <string name="filipino">Filipino</string>
+    <string name="italian">Italian</string>
+    <string name="japanese">Japanese</string>
+    <string name="korean">Korean</string>
+    <string name="adobo">Chicken Adobo</string>
+    <string name="omelet">Cheese Omelet</string>
+    <string name="sinigang">Sinigang na Baboy</string>
+    <string name="army">Army Navy</string>
+    <string name="dimsum">Dimsum Treats</string>
+    <string name="lovelite">Lovelite</string>
+    <string name="yellowcab">Yellowcab</string>
+    <string name="hokusai">Hokusai</string>
+    <string name="samgyup">Samgyupsalamat</string>
+</resources>
