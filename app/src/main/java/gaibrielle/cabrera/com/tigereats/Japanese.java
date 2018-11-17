@@ -1,8 +1,8 @@
 package gaibrielle.cabrera.com.tigereats;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -32,4 +32,25 @@ public class Japanese extends AppCompatActivity {
         Intent i = new Intent (this, Hokusai.class);
         startActivity(i);
     }
+
+    public void Ichiro (View v){
+        Intent i = new Intent (this, Ichiro.class);
+        startActivity(i);
+    }
+
+    public void Toribox (View v){
+        Intent i = new Intent (this, Toribox.class);
+        startActivity(i);
+    }
+
+    public void Legit (View v){
+        Intent i = new Intent (this, Legit.class);
+        startActivity(i);
+    }
+
+    public void TokyoTokyo (View v){
+        Intent i = new Intent (this, TokyoTokyo.class);
+        startActivity(i);
+    }
+
 }

@@ -30,9 +30,9 @@
     //American Screen 4
     <string name="army">Army Navy</string>
     <string name="wendys">Wendys</string>
-    <string name="zarks">Zarks</string>
-    <string name="hub">Hub Coffee</string>
-    <string name="chewyork">Chew York</string>
+    <string name="jackos">Jackos</string>
+    <string name="mcdo">Mcdonald\'s</string>
+    <string name="wingvibe">Wing Vibe</string>
 
     //Chinese Screen 4
     <string name="angkong">Angkong</string>

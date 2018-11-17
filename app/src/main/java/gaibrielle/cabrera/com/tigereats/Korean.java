@@ -1,8 +1,8 @@
 package gaibrielle.cabrera.com.tigereats;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -30,6 +30,26 @@ public class Korean extends AppCompatActivity {
 
     public void Samgyup (View v){
         Intent i = new Intent (this, Samgyup.class);
+        startActivity(i);
+    }
+
+    public void Samgyupsarap (View v){
+        Intent i = new Intent (this, Samgyupsarap.class);
+        startActivity(i);
+    }
+
+    public void Santorini (View v){
+        Intent i = new Intent (this, Santorini.class);
+        startActivity(i);
+    }
+
+    public void Hanayo (View v){
+        Intent i = new Intent (this, Hanayo.class);
+        startActivity(i);
+    }
+
+    public void Bonchon (View v){
+        Intent i = new Intent (this, Bonchon.class);
         startActivity(i);
     }
 }

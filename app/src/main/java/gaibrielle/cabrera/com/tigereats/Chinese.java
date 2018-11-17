@@ -1,8 +1,8 @@
 package gaibrielle.cabrera.com.tigereats;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -29,6 +29,26 @@ public class Chinese extends AppCompatActivity {
 
     public void Dimsum (View v){
         Intent i = new Intent (this, Dimsum.class);
+        startActivity(i);
+    }
+
+    public void Angkong (View v){
+        Intent i = new Intent (this, Angkong.class);
+        startActivity(i);
+    }
+
+    public void GoldenChopstick (View v){
+        Intent i = new Intent (this, GoldenChopstick.class);
+        startActivity(i);
+    }
+
+    public void FastFoo (View v){
+        Intent i = new Intent (this, FastFoo.class);
+        startActivity(i);
+    }
+
+    public void Chowking (View v){
+        Intent i = new Intent (this, Chowking.class);
         startActivity(i);
     }
 }

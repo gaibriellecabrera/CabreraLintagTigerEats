@@ -1,8 +1,8 @@
 package gaibrielle.cabrera.com.tigereats;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -28,6 +28,26 @@ public class American extends AppCompatActivity {
 
     public void Army (View v){
         Intent i = new Intent (this, Army.class);
+        startActivity(i);
+    }
+
+    public void Wendys (View v){
+        Intent i = new Intent (this, Wendys.class);
+        startActivity(i);
+    }
+
+    public void Jackos (View v){
+        Intent i = new Intent (this, Jackos.class);
+        startActivity(i);
+    }
+
+    public void WingVibe (View v){
+        Intent i = new Intent (this, WingVibe.class);
+        startActivity(i);
+    }
+
+    public void Mcdonalds (View v){
+        Intent i = new Intent (this, Mcdonalds.class);
         startActivity(i);
     }
 }
