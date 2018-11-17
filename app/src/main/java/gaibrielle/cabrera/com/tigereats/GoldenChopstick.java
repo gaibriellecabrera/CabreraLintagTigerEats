@@ -11,7 +11,7 @@ public class GoldenChopstick extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_goldenchopstick);
+        setContentView(R.layout.activity_goldenchopsticks);
     }
 
     public void Back (View v){
