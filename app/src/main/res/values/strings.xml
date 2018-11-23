@@ -1,4 +1,9 @@
 <resources>
+    //General Screen 5
+    <string name="location">Location:</string>
+    <string name="hours">Hours Open:</string>
+    <string name="contact">Contact Number:</string>
+
     <string name="app_name">TigerEats</string>
     <string name="tab_text_1">Tiger Eats</string>
     <string name="tab_text_2">Tiger Recipe</string>
@@ -30,7 +35,7 @@
     //American Screen 4
     <string name="army">Army Navy</string>
     <string name="wendys">Wendys</string>
-    <string name="jackos">Jackos</string>
+    <string name="jackos">Jacko\'s Burger Bar</string>
     <string name="mcdo">Mcdonald\'s</string>
     <string name="wingvibe">Wing Vibe</string>
 
@@ -68,6 +73,160 @@
     <string name="santorini">Santorini</string>
     <string name="hanayo">Hanayo</string>
     <string name="bonchon">Bon Chon</string>
+
+    //Army Details
+    <string name="locationArmy">Ground Floor, Pacific Icon Residences,  Dapitan St, Sampaloc, Manila, Metro Manila</string>
+    <string name="hoursArmy">24 hours</string>
+    <string name="contactArmy">(02) 333 3131</string>
+
+    //Wendys Details
+    <string name="locationWendys">1427 Dapitan St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursWendys">24 hours</string>
+    <string name="contactWendys">(02) 533 3333</string>
+
+    //Jackos Details
+    <string name="locationJackos">1601 Piy Margal St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursJackos">Mondays to Sundays, 11:00 am - 11:30 pm</string>
+    <string name="contactJackos">0917 550 9962</string>
+
+    //Mcdo Details
+    <string name="locationMcdo">850 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursMcdo">24 hours</string>
+    <string name="contactMcdo">(02) 568 6236</string>
+
+    //Wing Vibe Details
+    <string name="locationWingvibe">1222 Delos Reyes St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursWingvibe">Mondays to Saturdays, 9:00 am - 11:00 pm
+                                    Sundays, 12:00 nn - 9:00 pm</string>
+    <string name="contactWingvibe">0997 438 8950</string>
+
+    //Celys Details
+    <string name="locationCelys">1242 Concepcion St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursCelys">Mondays to Fridays, 10:00 am - 8:00 pm</string>
+    <string name="contactCelys">None declared</string>
+
+    //Lovelite
+    <string name="locationLovelite">1224 Asturias St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursLovelite">Mondays to Saturdays, 8:00 am - 9:00 pm</string>
+    <string name="contactLovelite">0927 334 3234</string>
+
+    //Ricing Star
+    <string name="locationRicing">V. Concepcion St, Manila, 1008 Metro Manila</string>
+    <string name="hoursRicing">24 hours</string>
+    <string name="contactRicing">None declared</string>
+
+    //Tapa King
+    <string name="locationTapa">UST Multi Deck Parking, Espana St., Sampaloc, Manila</string>
+    <string name="hoursTapa">Mondays to Saturdays, 8:00 am - 8:00 pm
+                                Sundays, 11:00 am - 8:00 pm</string>
+    <string name="contactTapa"> 938-1136</string>
+
+    //Goldilocks
+    <string name="locationGoldilocks">Miracle III Building, 873 España Blvd, Sampaloc, Manila, 1015 Metro Manila</string>
+    <string name="hoursGoldilocks">Mondays to Sundays, 7:00 am - 9:00 pm</string>
+    <string name="contactGoldilocks">(02) 740 6454</string>
+
+    //Dimsum Treats
+    <string name="locationDimsum">1217 Juaning St, Dapitan, Metro Manila</string>
+    <string name="hoursDimsum">Mondays to Sundays, 8:00 am - 2:00 pm</string>
+    <string name="contactDimsum">(02) 781-1557</string>
+
+    //Angkong
+    <string name="locationAngkong">1241 Asturias St, Sampaloc, Manila, 1015 Metro Manila</string>
+    <string name="hoursAngkong">Mondays to Saturdays, 10:00 am - 7:30 pm</string>
+    <string name="contactAngkong">None declared</string>
+
+    //Golden Chopsticks
+    <string name="locationGolden">2nd flr, UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursGolden">Mondays to Fridays, 8:00 am - 6:00 pm
+                                Saturdays, 9:00 am - 3:00 pm</string>
+    <string name="contactGolden">None declared</string>
+
+    //Mr. Fast Foo
+    <string name="locationFastfoo">UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursFastfoo">Mondays to Saturdays, 7:00 am - 10:00 pm
+                                Sundays, 8:00 am - 9:00 pm</string>
+    <string name="contactFastfoo">None declared</string>
+
+    //Chowking
+    <string name="locationChowking">UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursChowking">24 hours</string>
+    <string name="contactChowking">(02) 98888</string>
+
+    //Hokusai
+    <string name="locationHokusai">1222 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursHokusai">Mondays to Sundays, 10:00 am - 9:00 pm</string>
+    <string name="contactHokusai">None declared</string>
+
+    //Tokyo Tokyo
+    <string name="locationTokyo">2nd flr, UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursTokyo">Mondays to Saturdays, 10:00 am - 9:00 pm</string>
+    <string name="contactTokyo">(02) 708 4088</string>
+
+    //Ichiro
+    <string name="locationIchiro">P. Noval Street, Near UST Campus, Sampaloc, Manila</string>
+    <string name="hoursIchiro">Mondays to Sundays, 8:00 am - 12:00 mn</string>
+    <string name="contactIchiro">0906 403 3827</string>
+
+    //Tori Box
+    <string name="locationToribox"> iTower Building, 939 Padre Noval St, Sampaloc, Manila</string>
+    <string name="hoursToribox">Mondays to Sundays, 9:00 am - 8:00 pm</string>
+    <string name="contactToribox">None declared</string>
+
+    //Legit
+    <string name="locationLegit">981 Padre Noval St, 469 Zone 46, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursLegit">Mondays to Sundays, 9:00 am - 10:00 pm</string>
+    <string name="contactLegit">(02) 267 2488</string>
+
+    //Hanayo
+    <string name="locationHanayo">945-955 Padre Noval St, 469 Zone 46, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursHanayo">Mondays to Sundays, 9:00 am - 9:00 pm</string>
+    <string name="contactHanayo">(02) 710 0718</string>
+
+    //Santorini
+    <string name="locationSantorini">1229 Delos Reyes St, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursSantorini">Mondays to Sundays, 9:00 am - 9:00 pm</string>
+    <string name="contactSantorini">0915 524 1900</string>
+
+    //Bonchon
+    <string name="locationBonchon">2nd flr, UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursBonchon">Mondays to Sundays, 7:00 am - 10:30 pm</string>
+    <string name="contactBonchon">((02) 633 1818</string>
+
+    //Samgyupsalamat
+    <string name="locationSamgyupsalamat">Unit 2G and 2H Fusebox Building, 1254-1258 Asturias St, Sampaloc, Manila, Metro Manila</string>
+    <string name="hoursSamgyupsalamat">Mondays to Sundays, 11:00 am - 2:00 am</string>
+    <string name="contactSamgyupsalamat">None declared</string>
+
+    //Samgyupsarap
+    <string name="locationSamgyupsarap">840 Padre Noval St, Sampaloc, Manila, 1015 Metro Manila</string>
+    <string name="hoursSamgyupsarap">Mondays to Sundays, 11:00 am - 2:00 am</string>
+    <string name="contactSamgyupsarap">None declared</string>
+
+    //Yellowcab
+    <string name="locationYellowcab">1122 Lacson Ave, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursYellowcab">24 hours</string>
+    <string name="contactYellowcab">(02) 789 9999</string>
+
+    //Shakeys
+    <string name="locationShakeys">Rodriguez Building, España Blvd, Sampaloc, Manila, 1008 Metro Manila</string>
+    <string name="hoursShakeys">24 hours</string>
+    <string name="contactShakeys">(02) 77777</string>
+
+    //Dominos
+    <string name="locationDominos">M.F. Jhocson, 873 España Blvd, Sampaloc, Manila, 1015 Metro Manila</string>
+    <string name="hoursDominos">Mondays to Sundays, 10:00 am - 10:00 pm</string>
+    <string name="contactDominos">(02) 997 3030</string>
+
+    //Pizza Hut
+    <string name="locationPizzahut">Celestial Marie BLDG, G/F, 820 A.H.Lacson St, Sampaloc, Manila, 1015 Metro Manila</string>
+    <string name="hoursPizzahut">Mondays to Sundays, 10:00 am - 1:00 am</string>
+    <string name="contactPizzahut">(02) 911 1111</string>
+
+    //Sbarro
+    <string name="locationSbarro">UST Multi-Deck Parking, UST Campus, Sampaloc, Manila</string>
+    <string name="hoursSbarro">Mondays to Sundays, 9:00 am - 10:00 pm</string>
+    <string name="contactSbarro">None declared</string>
 
     //MainActTitle
     <string name="title">Hey Tiger!</string>

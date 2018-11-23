@@ -20,4 +20,19 @@ public class splash extends AppCompatActivity {
             }
         },SPLASH_TIME_OUT);
     }
+    protected void onRestart(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run(){
+                Intent homeIntent = new Intent(splash.this, MainActivity.class);
+                startActivity(homeIntent);
+                finish();
+            }
+        },SPLASH_TIME_OUT);
+    }
+//    public void onBackPressed(){
+//    }
+
 }
