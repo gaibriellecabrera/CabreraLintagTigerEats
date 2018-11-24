@@ -29,10 +29,7 @@ public class Wendys extends AppCompatActivity {
     }
 
     public void WendysMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.612134, 120.988796"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, WendysMap.class);
+        startActivity(i);
     }
 }

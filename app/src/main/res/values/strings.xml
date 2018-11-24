@@ -231,4 +231,11 @@
     //MainActTitle
     <string name="title">Hey Tiger!</string>
     <string name="subtitle">What do you want to eat today?</string>
+    <string name="title_activity_angkong_map">Map</string>
+    <string name="title_activity_army_map">Map</string>
+    <string name="title_activity_bonchon_map">Map</string>
+    <string name="title_activity_wendys_map">Map</string>
+    <string name="title_activity_mcdonalds_map">Map</string>
+    <string name="title_activity_wing_vibe_map">Map</string>
+    <string name="title_activity_jackos_map">Map</string>
 </resources>

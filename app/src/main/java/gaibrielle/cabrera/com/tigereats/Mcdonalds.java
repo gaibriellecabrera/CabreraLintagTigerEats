@@ -29,10 +29,7 @@ public class Mcdonalds extends AppCompatActivity {
     }
 
     public void McdonaldsMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.604498, 120.988508"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, McdonaldsMap.class);
+        startActivity(i);
     }
 }

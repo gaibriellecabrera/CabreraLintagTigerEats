@@ -29,10 +29,7 @@ public class Army extends AppCompatActivity {
     }
 
     public void ArmyMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.611983, 120.988671"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, ArmyMap.class);
+        startActivity(i);
     }
 }
