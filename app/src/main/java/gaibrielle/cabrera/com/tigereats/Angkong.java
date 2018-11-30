@@ -29,10 +29,7 @@ public class Angkong extends AppCompatActivity {
     }
 
     public void AngkongMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.613545, 120.994816"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, AngkongMap.class);
+        startActivity(i);
     }
 }

@@ -29,10 +29,7 @@ public class Bonchon extends AppCompatActivity {
     }
 
     public void bonchonMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.610334, 120.990661"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, BonchonMap.class);
+        startActivity(i);
     }
 }

@@ -29,10 +29,7 @@ public class Jackos extends AppCompatActivity {
     }
 
     public void JackosMap(View v){
-        Intent i=null, chooser=null;
-        i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:14.609894, 120.986759"));
-        chooser = Intent.createChooser(i, "Open with?");
-        startActivity(chooser);
+        Intent i = new Intent(this, JackosMap.class);
+        startActivity(i);
     }
 }
