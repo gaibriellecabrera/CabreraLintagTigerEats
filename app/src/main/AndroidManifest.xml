@@ -12,8 +12,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".American" />
         <activity android:name=".Chinese" />
         <activity android:name=".Filipino" />
@@ -32,6 +31,7 @@
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -59,6 +59,8 @@
         <activity android:name=".Sbarro" />
         <activity android:name=".Pizzahut" />
         <activity android:name=".Dominos" />
+        <activity android:name=".Giniling" />
+        <activity android:name=".Tinola"></activity>
     </application>
 
 </manifest>

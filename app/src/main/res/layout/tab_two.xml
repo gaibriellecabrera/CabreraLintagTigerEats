@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#ffff"
->
+    >
 
 
     <ScrollView
@@ -135,11 +135,11 @@
 
                     <Button
                         android:id="@+id/btnSinigang"
+                        android:onClick="Sinigang"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/round_button"
                         android:fontFamily="@font/gotham"
-                        android:onClick="Filipino"
                         android:text="@string/sinigang"
                         android:textAllCaps="false"
                         android:textColor="#FBC70A"
@@ -155,7 +155,95 @@
                         android:textColor="#312929"
                         android:textSize="13sp" />
                 </LinearLayout>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sinigangIcon"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ginilings" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnGiniling"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_button"
+                        android:fontFamily="@font/gotham"
+                        android:onClick="Giniling"
+                        android:text="@string/giniling"
+                        android:textAllCaps="false"
+                        android:textColor="#FBC70A"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/ginilingSub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserratmedium"
+                        android:gravity="center"
+                        android:text="@string/ginilingsub"
+                        android:textColor="#312929"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sinigangIcon"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tinolas" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnTinola"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_button"
+                        android:fontFamily="@font/gotham"
+                        android:onClick="Tinola"
+                        android:text="@string/tinola"
+                        android:textAllCaps="false"
+                        android:textColor="#FBC70A"
+                        android:textSize="20sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tinolaSub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserratmedium"
+                        android:gravity="center"
+                        android:text="@string/tinolasub"
+                        android:textColor="#312929"
+                        android:textSize="13sp" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>

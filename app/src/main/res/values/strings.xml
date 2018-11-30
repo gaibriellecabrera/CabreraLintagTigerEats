@@ -31,6 +31,10 @@
     <string name="omeletsub">A simple dish made from beaten eggs - with a twist.</string>
     <string name="sinigang">Sinigang na Baboy</string>
     <string name="sinigangsub">A simple hot and sour soup with pork, veggies, and tamarind-flavored broth.</string>
+    <string name="giniling">Pork Giniling</string>
+    <string name="ginilingsub">A classic, easy to cook Filipino with a dash of potatotes.</string>
+    <string name="tinola">Tinola</string>
+    <string name="tinolasub">A well-known Filipino comfort food for Sundays at home.</string>
 
     //American Screen 4
     <string name="army">Army Navy</string>
@@ -231,4 +235,105 @@
     //MainActTitle
     <string name="title">Hey Tiger!</string>
     <string name="subtitle">What do you want to eat today?</string>
+
+    //Others
+    <string name="ingredients">Ingredients:</string>
+    <string name="how">How to cook:</string>
+
+    //Adobo
+    <string name="ingAdobo">
+         2 tbsp. vegetable oil \n
+        1/3 pound chicken \n
+        1 large onion \n
+        2 tbsp. minced garlic \n
+        1/3 cup white vinegar \n
+        2/3 cup soy sauce \n
+        2 tsp. black pepper \n 1 bay leaf</string>
+    <string name="howAdobo">
+         1. Heat the vegetable oil in a large skillet over medium-high heat. \n
+        2. Cook chicken pieces until golden brown on both sides, then remove. \n
+        3. Stir in the onion and garlic; cook until they  soften and brown, about 6 minutes. \n
+        4. Pour in vinegar and soy sauce, and season with garlic powder, black pepper, and bay leaf. \n
+        5. Add the browned chicken, increase the heat to high, and bring to a boil. \n
+        6. Reduce the heat to medium-low, cover, and simmer until the chicken is tender and cooked through. \n</string>
+    //Omelet
+    <string name="ingOmelet">
+         2 large eggs \n
+        Olive oil \n
+        10g cheddar cheese \n
+    </string>
+    <string name="howOmelet">
+         1. Crack the eggs into a mixing bowl, season with a pinch of salt and black pepper, then beat well with a fork until fully combined. \n
+        2. Place a small non-stick frying pan on a low heat to warm up. \n
+        3. Grate the cheese onto a board and set aside. \n
+        4. Add 1/2 tbsp. of oil to the hot pan, then carefully pour in the eggs. \n
+        5. Tilt the pan to spread them out evenly, using a fork to swirl the eggs around the pan a little. \n
+        6. When the omelet begins to cook and firm up, but still has a raw egg on top, sprinkle over the cheese. \n
+        7. Using a spatula, ease around the edges of the omelet, then fold it over in half. \n
+        8. When it starts to turn golden brown underneath, remove the pan from the heat and slide the omelet onto a plate. \n
+    </string>
+    //Sinigang
+    <string name="ingSinigang">
+         500g pork, sinigang cut \n
+        Water \n
+        1 med. tomatoes, quartered \n
+        1 sm. onion, quartered \n
+        1 cup taro root, cubed \n
+        3-4 tbsp. sinigang na gabi mix \n
+        1 pc. siling haba \n
+        1-2 tbsp. fish sauce \n
+        1/2 cup sitaw \n
+        2 cups kangkong \n
+    </string>
+    <string name="howSinigang">
+         1. Place the tomatoes, pork, and onions in a pot with enough water to cover pork, bring to a boil then lower heat to simmer for 1 1/2 hours until pork is tender. \n
+        2. Skin top from time to time to get rid of impurities. \n
+        3. After 30 mins. of cooking pork, add gabi cubes. \n
+        4. Once pork is tender, add sinigang mix, siling haba, and simmer for 5 mins. \n
+        5. Add the sitaw then simmer for another 5 mins. \n
+        6. Season to taste with patis then add kangkong leaves and simmer for 2-3 mins. Adjust seasoning according to taste. Serve while hot.
+    </string>
+    //Giniling
+    <string name="ingGiniling">
+         2 tbsp. oil \n
+        1  tbsp. garlc, minced \n
+        1 med. onion, chopped \n
+        2 pcs. tomatoes, chopped \n
+        1/2 kilo ground pork \n
+        1 1/2 cups of water \n
+        2 med. potatoes, diced \n
+        2 med. carrot, diced \n
+        1/2 cup green peas \n
+        1/2 cup tomato sauce
+    </string>
+    <string name="howGiniling">
+         1. In a large pan, heat oil and saute garlic, onion, and tomatoes for a few minutes. \n
+        2. Add ground pork then stir. \n
+        3. Pour in water and cook for 20 mins. \n
+        4. Add potatoes and carrots then cook for 5 mins. \n
+        5. Add peas then stir in tomato sauce. \n
+        6. Season with salt and pepper and let simmer for 5 mins.
+    </string>
+    //Tinola
+    <string name="ingTinola">
+         1 tbsp. oil \n
+        1 sm. onion, sliced thinly \n
+        2-3 cloves garlic, minced \n
+        2 thumb-sized ginger, julienned \n
+        1 whole chicken, cut into serving pieces \n
+        2 tbsp. fish sauce \n
+        5 cups water \n
+        1 sm. green papaya, wedged \n
+        1 bunch kangkong \n
+    </string>
+    <string name="howTinola">
+         1. In a pot, over medium heat, heat oil. \n
+        2. Add onions and garlic and cook until limp and aromatic. \n
+        3. Add chicken and cook for about 5-7 mins. or until it changes color. \n
+        4. Add fish sauce and cook for about 1-2 mins. \n
+        5. Add more water and bring to a boil skimming scum that floats on top. \n
+        6. Lower heat, cover and simmer for about 30-35 mins. \n
+        7. Add papaya and cook for about 3-5 mins. Season with salt and pepper to taste.
+        8. Add kangkong and cook until wilted. Serve while hot.
+    </string>
 </resources>

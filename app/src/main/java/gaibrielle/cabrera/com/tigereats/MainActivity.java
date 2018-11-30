@@ -180,4 +180,12 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent (this, Sinigang.class);
         startActivity(i);
     }
+    public void Giniling (View v){
+        Intent i = new Intent (this, Giniling.class);
+        startActivity(i);
+    }
+    public void Tinola (View v){
+        Intent i = new Intent (this, Tinola.class);
+        startActivity(i);
+    }
 }
